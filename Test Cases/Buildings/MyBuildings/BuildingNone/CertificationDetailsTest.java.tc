@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifys project certification level and type .</description>
+   <name>CertificationDetailsTest.java</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebd79b90-6479-4b8c-bb44-562e2450446c</testCaseGuid>
+</TestCaseEntity>

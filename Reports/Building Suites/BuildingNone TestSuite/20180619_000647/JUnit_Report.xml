@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuildingNone TestSuite" time="139" tests="1" failures="1" errors="0">
+   <testsuite name="BuildingNone TestSuite" tests="1" failures="1" errors="0" time="139" timestamp="2018-06-19 00:06:55" hostname="ARJUN - ARJUNS" id="Test Suites/Building Suites/BuildingNone TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_000647"/>
+         <property name="logFiles" value="C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_000647\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_000647\\1529381353734.png, C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\ScreenShot\\screenshot_20180619000914.png"/>
+         <property name="hostName" value="ARJUN - ARJUNS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="3ca224cd66ce8eaffc9a8e78b101008c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest" classname="Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest" status="PASSED">
+         <system-out><![CDATA[2018-06-19 00:06:59 - [TEST_CASE][PASSED] - Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest: Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest
+
+2018-06-19 00:06:59 - [TEST_STEP][PASSED] - Start listener action : beforeTestListener: com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:06:59 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable: com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:07:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.stg.arconline.io/'
+
+2018-06-19 00:07:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-19 00:07:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-19 00:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/button_ACCEPT AND CLOSE' is clicked on
+
+2018-06-19 00:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/Click_Log in' is clicked on
+
+2018-06-19 00:07:12 - [MESSAGE][PASSED] - Text 'Saurav@groupten.com' is set on object 'Object Repository/Page_Home  Arc/input_name'
+
+2018-06-19 00:07:13 - [MESSAGE][PASSED] - Text 'LEEDg10' is set on object 'Object Repository/Page_Home  Arc/input_pass'
+
+2018-06-19 00:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/input_field_policy_accept' is clicked on
+
+2018-06-19 00:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/button_Log in' is clicked on
+
+2018-06-19 00:07:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-19 00:07:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Arc dashboard/span_My Projects' is: 'My Projects'
+
+2018-06-19 00:07:31 - [MESSAGE][PASSED] - Actual text 'My Projects' and expected text 'My Projects' are matched  using regular expression
+
+2018-06-19 00:07:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-19 00:07:34 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:07:34 - [TEST_STEP][PASSED] - Statement - Try: com.arc.ReusableMethods.ReusableMethodsAddNewProject.USBuildingAddNewProject is PASSED
+
+2018-06-19 00:07:34 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsNavigation.navigateToBuilding: com.arc.ReusableMethods.ReusableMethodsNavigation.navigateToBuilding is PASSED
+
+2018-06-19 00:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/a_ Buildings' is clicked on
+
+2018-06-19 00:07:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-19 00:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/a_ My Buildings' is clicked on
+
+2018-06-19 00:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/i_fa fa-bars fa-lg' is clicked on
+
+2018-06-19 00:07:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Arc dashboard/span_My Buildings' is: 'My Buildings'
+
+2018-06-19 00:07:38 - [MESSAGE][PASSED] - Actual text 'My Buildings' and expected text 'My Buildings' are matched  using regular expression
+
+2018-06-19 00:07:38 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsNavigation.navigateToBuilding is PASSED
+
+2018-06-19 00:07:38 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsAddNewProject.USBuildingAddNewProject: com.arc.ReusableMethods.ReusableMethodsAddNewProject.USBuildingAddNewProject is PASSED
+
+2018-06-19 00:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/button_ Add' is clicked on
+
+2018-06-19 00:07:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-19 00:07:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add_Project_Details/h1_Project Registration' is: 'Project Registration'
+
+2018-06-19 00:07:42 - [MESSAGE][PASSED] - Actual text 'Project Registration' and expected text 'Project Registration' are matched  using regular expression
+
+2018-06-19 00:07:43 - [MESSAGE][PASSED] - Text 'USBuidingNone20180619 000738' is set on object 'Object Repository/Add_Project_Details/input_name'
+
+2018-06-19 00:07:43 - [MESSAGE][PASSED] - All options with label 'Buildings' are selected in object 'Object Repository/Add_Project_Details/select_Select a Project TypeCo'  using regular expression
+
+2018-06-19 00:07:43 - [MESSAGE][PASSED] - All options with label 'None' are selected in object 'Object Repository/Add_Project_Details/select_Select a Rating SystemL'  using regular expression
+
+2018-06-19 00:07:46 - [MESSAGE][PASSED] - All options with label 'Office: Financial' are selected in object 'Object Repository/Add_Project_Details/select_Select space type'  using regular expression
+
+2018-06-19 00:07:48 - [MESSAGE][PASSED] - All options with label 'Investor: Bank' are selected in object 'Object Repository/Add_Project_Details/select_Select Owner Type'  using regular expression
+
+2018-06-19 00:07:48 - [MESSAGE][PASSED] - Text 'Habitat for Humanity' is set on object 'Object Repository/Add_Project_Details/input_organization'
+
+2018-06-19 00:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/input_organization' is clicked on
+
+2018-06-19 00:07:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-19 00:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/span_Habitat for Humanity' is clicked on
+
+2018-06-19 00:07:51 - [MESSAGE][PASSED] - Text 'usgbcarc@gmail.com' is set on object 'Object Repository/Add_Project_Details/input_owner_email'
+
+2018-06-19 00:07:51 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/Add_Project_Details/select_OwnerCountry' 
+
+2018-06-19 00:07:52 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Add_Project_Details/input_gross_area'
+
+2018-06-19 00:07:52 - [MESSAGE][PASSED] - Text '1808 Glengate Circle' is set on object 'Object Repository/Add_Project_Details/input_street'
+
+2018-06-19 00:07:53 - [MESSAGE][PASSED] - Text 'Morrisville' is set on object 'Object Repository/Add_Project_Details/input_city'
+
+2018-06-19 00:07:53 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/Add_Project_Details/select_AfghanistanAland Island (1)' 
+
+2018-06-19 00:07:55 - [MESSAGE][PASSED] - All options with label 'North Carolina' are selected in object 'Object Repository/Add_Project_Details/select_Select StateAlabamaAlas (1)'  using regular expression
+
+2018-06-19 00:07:55 - [MESSAGE][PASSED] - Text '27560' is set on object 'Object Repository/Add_Project_Details/input_zip_code'
+
+2018-06-19 00:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/input_reg_agreement' is clicked on
+
+2018-06-19 00:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/button_Next' is clicked on
+
+2018-06-19 00:08:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-19 00:08:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add_Project_Details/VerifyPaymentPage_ text' is: 'Payment type'
+
+2018-06-19 00:08:01 - [MESSAGE][PASSED] - Actual text 'Payment type' and expected text 'Payment type' are matched  using regular expression
+
+2018-06-19 00:08:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add_Project_Details/td_BuildingID' is: '1000151241'
+
+2018-06-19 00:08:02 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsAddNewProject.USBuildingAddNewProject is PASSED
+
+2018-06-19 00:08:02 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.
+
+2018-06-19 00:08:02 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-06-19 00:08:02 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Name : " + testCase.getTestCaseId()): Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest
+
+2018-06-19 00:08:02 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest
+
+2018-06-19 00:08:02 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Status : " + testCase.getTestCaseStatus()): Test Case Status : PASSED
+
+2018-06-19 00:08:02 - [MESSAGE][WARNING] - Test Case Status : PASSED
+
+2018-06-19 00:08:02 - [TEST_STEP][PASSED] - Statement - If ("FAILED".equalsIgnoreCase(testCase.getTestCaseStatus())): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest" classname="Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id(&quot;name&quot;)' not found)"/>
+         <system-out><![CDATA[2018-06-19 00:08:02 - [TEST_CASE][FAILED] - Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id("name")' not found)
+
+2018-06-19 00:08:02 - [TEST_STEP][PASSED] - Start listener action : beforeTestListener: com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:08:02 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable: com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:08:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-19 00:08:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.stg.arconline.io/'
+
+2018-06-19 00:08:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-19 00:08:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-19 00:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/button_ACCEPT AND CLOSE' is clicked on
+
+2018-06-19 00:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/Click_Log in' is clicked on
+
+2018-06-19 00:08:12 - [MESSAGE][PASSED] - Text 'Saurav@groupten.com' is set on object 'Object Repository/Page_Home  Arc/input_name'
+
+2018-06-19 00:08:13 - [MESSAGE][PASSED] - Text 'LEEDg10' is set on object 'Object Repository/Page_Home  Arc/input_pass'
+
+2018-06-19 00:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/input_field_policy_accept' is clicked on
+
+2018-06-19 00:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/button_Log in' is clicked on
+
+2018-06-19 00:08:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-19 00:08:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Arc dashboard/span_My Projects' is: 'My Projects'
+
+2018-06-19 00:08:29 - [MESSAGE][PASSED] - Actual text 'My Projects' and expected text 'My Projects' are matched  using regular expression
+
+2018-06-19 00:08:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-19 00:08:32 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:08:32 - [TEST_STEP][FAILED] - Statement - Try: Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id("name")' not found)
+
+2018-06-19 00:08:32 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram: com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram is PASSED
+
+2018-06-19 00:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/input_searchBar1' is clicked on
+
+2018-06-19 00:08:33 - [MESSAGE][PASSED] - Text '1000151082' is set on object 'Object Repository/Page_Arc dashboard/input_searchBar1'
+
+2018-06-19 00:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/input_searchBar1' is clicked on
+
+2018-06-19 00:08:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-19 00:08:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Arc dashboard/no_Project (1 project)' is: 'Project (1 project)'
+
+2018-06-19 00:08:36 - [MESSAGE][PASSED] - Actual text 'Project (1 project)' and expected text 'Project (1 project)' are matched 
+
+2018-06-19 00:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/search_Result' is clicked on
+
+2018-06-19 00:08:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-19 00:08:42 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram is PASSED
+
+2018-06-19 00:08:42 - [TEST_STEP][FAILED] - com.arc.ReusableMethods.ReusableMethodsPayment.paymentByCC: Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id("name")' not found)
+
+2018-06-19 00:09:14 - [MESSAGE][FAILED] - Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id("name")' not found)
+[[ATTACHMENT|C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_000647\\1529381353734.png]]
+
+2018-06-19 00:09:14 - [MESSAGE][FAILED] - Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id("name")' not found)
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - Catch (Throwable t): null
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - out.println(t.getLocalizedMessage()): null
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - e1 = new java.lang.Error(t.getMessage()): null
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - e1.setStackTrace(t.getStackTrace()): null
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - e1.printStackTrace(): null
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Taking screenshot successfully
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Name : " + testCase.getTestCaseId()): Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest
+
+2018-06-19 00:09:14 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Status : " + testCase.getTestCaseStatus()): Test Case Status : FAILED
+
+2018-06-19 00:09:14 - [MESSAGE][WARNING] - Test Case Status : FAILED
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - If ("FAILED".equalsIgnoreCase(testCase.getTestCaseStatus())): Taking screenshot successfully
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - println("Test case Fail taking Screenshot"): null
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - Try: Taking screenshot successfully
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - data = new java.util.Date(java.lang.System.currentTimeMillis()): null
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - Statement - formatarDate = new java.text.SimpleDateFormat(yyyyMMddHHmmss): null
+
+2018-06-19 00:09:14 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-06-19 00:09:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\ScreenShot\\screenshot_20180619000914.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-19 00:08:02 - [TEST_CASE][FAILED] - Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id("name")' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-19 00:06:55 - [TEST_SUITE][FAILED] - BuildingNone TestSuite: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id("name")' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-19 00:06:55 - [TEST_SUITE][FAILED] - BuildingNone TestSuite: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaymenntLocator/input_name ' located by 'By.xpath: id("name")' not found)]]></system-err>
+   </testsuite>
+</testsuites>

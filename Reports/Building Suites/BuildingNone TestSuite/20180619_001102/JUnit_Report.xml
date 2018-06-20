@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuildingNone TestSuite" time="125" tests="1" failures="1" errors="0">
+   <testsuite name="BuildingNone TestSuite" tests="1" failures="1" errors="0" time="125" timestamp="2018-06-19 00:11:10" hostname="ARJUN - ARJUNS" id="Test Suites/Building Suites/BuildingNone TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_001102"/>
+         <property name="logFiles" value="C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_001102\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ARJUN - ARJUNS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="1699b90941eac84665a784aea90b6db3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest" classname="Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest" status="PASSED">
+         <system-out><![CDATA[2018-06-19 00:11:14 - [TEST_CASE][PASSED] - Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest: Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest
+
+2018-06-19 00:11:14 - [TEST_STEP][PASSED] - Start listener action : beforeTestListener: com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:11:14 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable: com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:11:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.stg.arconline.io/'
+
+2018-06-19 00:11:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-19 00:11:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-19 00:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/button_ACCEPT AND CLOSE' is clicked on
+
+2018-06-19 00:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/Click_Log in' is clicked on
+
+2018-06-19 00:11:26 - [MESSAGE][PASSED] - Text 'Saurav@groupten.com' is set on object 'Object Repository/Page_Home  Arc/input_name'
+
+2018-06-19 00:11:27 - [MESSAGE][PASSED] - Text 'LEEDg10' is set on object 'Object Repository/Page_Home  Arc/input_pass'
+
+2018-06-19 00:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/input_field_policy_accept' is clicked on
+
+2018-06-19 00:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/button_Log in' is clicked on
+
+2018-06-19 00:11:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-19 00:11:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Arc dashboard/span_My Projects' is: 'My Projects'
+
+2018-06-19 00:11:42 - [MESSAGE][PASSED] - Actual text 'My Projects' and expected text 'My Projects' are matched  using regular expression
+
+2018-06-19 00:11:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-19 00:11:45 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:11:45 - [TEST_STEP][PASSED] - Statement - Try: com.arc.ReusableMethods.ReusableMethodsAddNewProject.USBuildingAddNewProject is PASSED
+
+2018-06-19 00:11:45 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsNavigation.navigateToBuilding: com.arc.ReusableMethods.ReusableMethodsNavigation.navigateToBuilding is PASSED
+
+2018-06-19 00:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/a_ Buildings' is clicked on
+
+2018-06-19 00:11:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-19 00:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/a_ My Buildings' is clicked on
+
+2018-06-19 00:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/i_fa fa-bars fa-lg' is clicked on
+
+2018-06-19 00:11:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Arc dashboard/span_My Buildings' is: 'My Buildings'
+
+2018-06-19 00:11:48 - [MESSAGE][PASSED] - Actual text 'My Buildings' and expected text 'My Buildings' are matched  using regular expression
+
+2018-06-19 00:11:48 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsNavigation.navigateToBuilding is PASSED
+
+2018-06-19 00:11:48 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsAddNewProject.USBuildingAddNewProject: com.arc.ReusableMethods.ReusableMethodsAddNewProject.USBuildingAddNewProject is PASSED
+
+2018-06-19 00:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/button_ Add' is clicked on
+
+2018-06-19 00:11:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-19 00:11:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add_Project_Details/h1_Project Registration' is: 'Project Registration'
+
+2018-06-19 00:11:52 - [MESSAGE][PASSED] - Actual text 'Project Registration' and expected text 'Project Registration' are matched  using regular expression
+
+2018-06-19 00:11:52 - [MESSAGE][PASSED] - Text 'USBuidingNone20180619 001148' is set on object 'Object Repository/Add_Project_Details/input_name'
+
+2018-06-19 00:11:53 - [MESSAGE][PASSED] - All options with label 'Buildings' are selected in object 'Object Repository/Add_Project_Details/select_Select a Project TypeCo'  using regular expression
+
+2018-06-19 00:11:53 - [MESSAGE][PASSED] - All options with label 'None' are selected in object 'Object Repository/Add_Project_Details/select_Select a Rating SystemL'  using regular expression
+
+2018-06-19 00:11:57 - [MESSAGE][PASSED] - All options with label 'Office: Financial' are selected in object 'Object Repository/Add_Project_Details/select_Select space type'  using regular expression
+
+2018-06-19 00:11:59 - [MESSAGE][PASSED] - All options with label 'Investor: Bank' are selected in object 'Object Repository/Add_Project_Details/select_Select Owner Type'  using regular expression
+
+2018-06-19 00:11:59 - [MESSAGE][PASSED] - Text 'Habitat for Humanity' is set on object 'Object Repository/Add_Project_Details/input_organization'
+
+2018-06-19 00:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/input_organization' is clicked on
+
+2018-06-19 00:12:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-19 00:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/span_Habitat for Humanity' is clicked on
+
+2018-06-19 00:12:03 - [MESSAGE][PASSED] - Text 'usgbcarc@gmail.com' is set on object 'Object Repository/Add_Project_Details/input_owner_email'
+
+2018-06-19 00:12:03 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/Add_Project_Details/select_OwnerCountry' 
+
+2018-06-19 00:12:03 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Add_Project_Details/input_gross_area'
+
+2018-06-19 00:12:04 - [MESSAGE][PASSED] - Text '1808 Glengate Circle' is set on object 'Object Repository/Add_Project_Details/input_street'
+
+2018-06-19 00:12:05 - [MESSAGE][PASSED] - Text 'Morrisville' is set on object 'Object Repository/Add_Project_Details/input_city'
+
+2018-06-19 00:12:05 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/Add_Project_Details/select_AfghanistanAland Island (1)' 
+
+2018-06-19 00:12:08 - [MESSAGE][PASSED] - All options with label 'North Carolina' are selected in object 'Object Repository/Add_Project_Details/select_Select StateAlabamaAlas (1)'  using regular expression
+
+2018-06-19 00:12:08 - [MESSAGE][PASSED] - Text '27560' is set on object 'Object Repository/Add_Project_Details/input_zip_code'
+
+2018-06-19 00:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/input_reg_agreement' is clicked on
+
+2018-06-19 00:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_Project_Details/button_Next' is clicked on
+
+2018-06-19 00:12:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-19 00:12:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add_Project_Details/VerifyPaymentPage_ text' is: 'Payment type'
+
+2018-06-19 00:12:14 - [MESSAGE][PASSED] - Actual text 'Payment type' and expected text 'Payment type' are matched  using regular expression
+
+2018-06-19 00:12:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add_Project_Details/td_BuildingID' is: '1000151242'
+
+2018-06-19 00:12:15 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsAddNewProject.USBuildingAddNewProject is PASSED
+
+2018-06-19 00:12:15 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.
+
+2018-06-19 00:12:15 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-06-19 00:12:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Name : " + testCase.getTestCaseId()): Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest
+
+2018-06-19 00:12:16 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest
+
+2018-06-19 00:12:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Status : " + testCase.getTestCaseStatus()): Test Case Status : PASSED
+
+2018-06-19 00:12:16 - [MESSAGE][WARNING] - Test Case Status : PASSED
+
+2018-06-19 00:12:16 - [TEST_STEP][PASSED] - Statement - If ("FAILED".equalsIgnoreCase(testCase.getTestCaseStatus())): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest" classname="Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id(&quot;name&quot;)})"/>
+         <system-out><![CDATA[2018-06-19 00:12:16 - [TEST_CASE][FAILED] - Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id("name")})
+
+2018-06-19 00:12:16 - [TEST_STEP][PASSED] - Start listener action : beforeTestListener: com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:12:16 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable: com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:12:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-19 00:12:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.stg.arconline.io/'
+
+2018-06-19 00:12:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-19 00:12:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-19 00:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/button_ACCEPT AND CLOSE' is clicked on
+
+2018-06-19 00:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/Click_Log in' is clicked on
+
+2018-06-19 00:12:26 - [MESSAGE][PASSED] - Text 'Saurav@groupten.com' is set on object 'Object Repository/Page_Home  Arc/input_name'
+
+2018-06-19 00:12:26 - [MESSAGE][PASSED] - Text 'LEEDg10' is set on object 'Object Repository/Page_Home  Arc/input_pass'
+
+2018-06-19 00:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/input_field_policy_accept' is clicked on
+
+2018-06-19 00:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  Arc/button_Log in' is clicked on
+
+2018-06-19 00:12:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-19 00:12:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Arc dashboard/span_My Projects' is: 'My Projects'
+
+2018-06-19 00:12:42 - [MESSAGE][PASSED] - Actual text 'My Projects' and expected text 'My Projects' are matched  using regular expression
+
+2018-06-19 00:12:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-19 00:12:45 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable is PASSED
+
+2018-06-19 00:12:45 - [TEST_STEP][FAILED] - Statement - Try: Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id("name")})
+
+2018-06-19 00:12:45 - [TEST_STEP][PASSED] - com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram: com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram is PASSED
+
+2018-06-19 00:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/input_searchBar1' is clicked on
+
+2018-06-19 00:12:46 - [MESSAGE][PASSED] - Text '1000151082' is set on object 'Object Repository/Page_Arc dashboard/input_searchBar1'
+
+2018-06-19 00:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/input_searchBar1' is clicked on
+
+2018-06-19 00:12:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-19 00:12:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Arc dashboard/no_Project (1 project)' is: 'Project (1 project)'
+
+2018-06-19 00:12:49 - [MESSAGE][PASSED] - Actual text 'Project (1 project)' and expected text 'Project (1 project)' are matched 
+
+2018-06-19 00:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arc dashboard/search_Result' is clicked on
+
+2018-06-19 00:12:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-19 00:12:54 - [MESSAGE][PASSED] - com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram is PASSED
+
+2018-06-19 00:12:54 - [TEST_STEP][FAILED] - com.arc.ReusableMethods.ReusableMethodsPayment.paymentByCC: Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id("name")})
+
+2018-06-19 00:13:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-19 00:13:04 - [MESSAGE][FAILED] - Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id("name")})
+
+2018-06-19 00:13:04 - [MESSAGE][FAILED] - Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id("name")})
+
+2018-06-19 00:13:04 - [TEST_STEP][PASSED] - Statement - Catch (Throwable t): null
+
+2018-06-19 00:13:04 - [TEST_STEP][PASSED] - Statement - out.println(t.getLocalizedMessage()): null
+
+2018-06-19 00:13:04 - [TEST_STEP][PASSED] - Statement - e1 = new java.lang.Error(t.getMessage()): null
+
+2018-06-19 00:13:04 - [TEST_STEP][PASSED] - Statement - e1.setStackTrace(t.getStackTrace()): null
+
+2018-06-19 00:13:04 - [TEST_STEP][PASSED] - Statement - e1.printStackTrace(): null
+
+2018-06-19 00:13:04 - [TEST_STEP][FAILED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.
+
+2018-06-19 00:13:04 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content failed because of: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+
+2018-06-19 00:13:08 - [MESSAGE][WARNING] - Switching to default content failed because of: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+
+2018-06-19 00:13:08 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Name : " + testCase.getTestCaseId()): Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest
+
+2018-06-19 00:13:08 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest
+
+2018-06-19 00:13:08 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Status : " + testCase.getTestCaseStatus()): Test Case Status : FAILED
+
+2018-06-19 00:13:08 - [MESSAGE][WARNING] - Test Case Status : FAILED
+
+2018-06-19 00:13:08 - [TEST_STEP][FAILED] - Statement - If ("FAILED".equalsIgnoreCase(testCase.getTestCaseStatus())): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.
+
+2018-06-19 00:13:08 - [TEST_STEP][PASSED] - Statement - println("Test case Fail taking Screenshot"): null
+
+2018-06-19 00:13:08 - [TEST_STEP][FAILED] - Statement - Try: Cannot take screenshot (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3)
+
+2018-06-19 00:13:08 - [TEST_STEP][PASSED] - Statement - data = new java.util.Date(java.lang.System.currentTimeMillis()): null
+
+2018-06-19 00:13:08 - [TEST_STEP][PASSED] - Statement - formatarDate = new java.text.SimpleDateFormat(yyyyMMddHHmmss): null
+
+2018-06-19 00:13:08 - [TEST_STEP][FAILED] - takeScreenshot: Cannot take screenshot (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3)
+
+2018-06-19 00:13:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-19 00:13:16 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3)
+
+2018-06-19 00:13:16 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.
+
+2018-06-19 00:13:16 - [TEST_STEP][PASSED] - Statement - e.printStackTrace(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-06-19 00:12:16 - [TEST_CASE][FAILED] - Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id("name")})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-19 00:11:10 - [TEST_SUITE][FAILED] - BuildingNone TestSuite: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id("name")})]]></system-out>
+      <system-err><![CDATA[2018-06-19 00:11:10 - [TEST_SUITE][FAILED] - BuildingNone TestSuite: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) Unable to set text 'S Sinha' of object 'Object Repository/PaymenntLocator/input_name ' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARJUNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARJUN\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 1699b90941eac84665a784aea90b6db3
+*** Element info: {Using=xpath, value=id("name")})]]></system-err>
+   </testsuite>
+</testsuites>

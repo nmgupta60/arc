@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Business Improvement Di</name>
+   <tag></tag>
+   <elementGuidId>7249beba-831d-4f4e-9554-7b55dc198098</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ownerType</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>saveProjectInfoSelect(this, '#ownerType')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>projectInfo.ownerType</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-init</name>
+      <type>Main</type>
+      <value>projectInfo.ownerType</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>item for item in ownerTypeData</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-not-empty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'deactivateSelect': editFields || access != 'CRUD'}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Business Improvement DistrictCommunity Development Corporation or Non-profit developerCorporate: Privately HeldCorporate: Publicly TradedEducational: College, PrivateEducational: College, PublicEducational: Community College, PrivateEducational: Community College, PublicEducational: Early Childhood Education/DaycareEducational: K-12 School, PrivateEducational: K-12 School, PublicEducational: University, PrivateEducational: University, publicGovernment Use: FederalGovernment Use: Local, CityGovernment Use: Local, Public Housing AuthorityGovernment Use: Other (utility, airport, etc.)Government Use: StateInvestor: BankInvestor: EndowmentInvestor: Equity FundInvestor: Individual/FamilyInvestor: Insurance CompanyInvestor: Pension FundInvestor: REIT, Non-tradedInvestor: REIT, Publicly tradedInvestor: ROECMain Street OrganizationNon-Profit (that do not fit into other categories)Religious</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ownerType&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

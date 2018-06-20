@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_none</name>
+   <tag></tag>
+   <elementGuidId>8e491814-8f93-45b2-bf38-a7e637b662a5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>none</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;certification-div&quot;)/section[@class=&quot;widget hidden-xs&quot;]/div[1]/table[@class=&quot;table table-striped table-hover&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[1]</value>
+   </webElementProperties>
+</WebElementEntity>

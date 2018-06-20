@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select StateAndaman and</name>
+   <tag></tag>
+   <elementGuidId>fe6673b0-08b1-429e-ba8e-d0f143e3a095</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'state' and @name = 'state' and (text() = 'Select StateAndaman and Nico.In.Andhra PradeshArunachal PradeshAssamBiharChandigarhChhaattisgarhDadra and Nagar Hav.Daman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLakshadweepMadhya PradeshMaharashtraManipurMegalayaMizoramNagalandOrissaPondicherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttaranchalWest Bengal' or . = 'Select StateAndaman and Nico.In.Andhra PradeshArunachal PradeshAssamBiharChandigarhChhaattisgarhDadra and Nagar Hav.Daman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLakshadweepMadhya PradeshMaharashtraManipurMegalayaMizoramNagalandOrissaPondicherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttaranchalWest Bengal')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>state</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-valid ng-dirty ng-valid-parse ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>state</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>paymentData.state</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>state.code as state.name for state in states</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>refresh_price(true)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select StateAndaman and Nico.In.Andhra PradeshArunachal PradeshAssamBiharChandigarhChhaattisgarhDadra and Nagar Hav.Daman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLakshadweepMadhya PradeshMaharashtraManipurMegalayaMizoramNagalandOrissaPondicherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttaranchalWest Bengal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;state&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

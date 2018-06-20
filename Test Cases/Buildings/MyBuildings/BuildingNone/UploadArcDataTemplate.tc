@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Uploading the excel file to create the meter and populate the data</description>
+   <name>UploadArcDataTemplate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8db7ecd-59f0-4659-9aff-d3a1a183b593</testCaseGuid>
+</TestCaseEntity>

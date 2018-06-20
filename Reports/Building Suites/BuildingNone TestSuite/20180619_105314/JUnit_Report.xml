@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuildingNone TestSuite" time="46" tests="0" failures="1" errors="1">
+   <testsuite name="BuildingNone TestSuite" tests="0" failures="1" errors="1" time="46" timestamp="2018-06-19 10:53:22" hostname="ARJUN - ARJUNS" id="Test Suites/Building Suites/BuildingNone TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_105314"/>
+         <property name="logFiles" value="C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_105314\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_105314\\1529420042962.png, C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\ScreenShot\\screenshot_20180619105403.png"/>
+         <property name="hostName" value="ARJUN - ARJUNS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a9dcd1eb53462512dad8351df49de529"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest" classname="Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)"/>
+         <system-out><![CDATA[2018-06-19 10:53:24 - [TEST_CASE][FAILED] - Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest: Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest FAILED because (of) Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)
+
+2018-06-19 10:53:24 - [TEST_STEP][ERROR] - Start listener action : beforeTestListener: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad() is applicable for argument types: (null) values: [null]
+Possible solutions: waitForPageLoad(int), waitForPageLoad(int, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-19 10:53:24 - [TEST_STEP][ERROR] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad() is applicable for argument types: (null) values: [null]
+Possible solutions: waitForPageLoad(int), waitForPageLoad(int, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-19 10:53:29 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-06-19 10:53:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-19 10:53:30 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad() is applicable for argument types: (null) values: [null]
+Possible solutions: waitForPageLoad(int), waitForPageLoad(int, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-19 10:53:30 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad() is applicable for argument types: (null) values: [null]
+Possible solutions: waitForPageLoad(int), waitForPageLoad(int, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-19 10:53:31 - [TEST_STEP][FAILED] - Statement - Try: Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)
+
+2018-06-19 10:53:31 - [TEST_STEP][FAILED] - com.arc.ReusableMethods.ReusableMethodsNavigation.navigateToBuilding: Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)
+
+2018-06-19 10:54:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)
+[[ATTACHMENT|C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\Reports\\Building Suites\\BuildingNone TestSuite\\20180619_105314\\1529420042962.png]]
+
+2018-06-19 10:54:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - Catch (Throwable t): null
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - out.println(t.getLocalizedMessage()): null
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - e1 = new java.lang.Error(t.getMessage()): null
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - e1.setStackTrace(t.getStackTrace()): null
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - e1.printStackTrace(): null
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Taking screenshot successfully
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Name : " + testCase.getTestCaseId()): Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest
+
+2018-06-19 10:54:03 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Status : " + testCase.getTestCaseStatus()): Test Case Status : FAILED
+
+2018-06-19 10:54:03 - [MESSAGE][WARNING] - Test Case Status : FAILED
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - If ("FAILED".equalsIgnoreCase(testCase.getTestCaseStatus())): Taking screenshot successfully
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - println("Test case Fail taking Screenshot"): null
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - Try: Taking screenshot successfully
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - data = new java.util.Date(java.lang.System.currentTimeMillis()): null
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - Statement - formatarDate = new java.text.SimpleDateFormat(yyyyMMddHHmmss): null
+
+2018-06-19 10:54:03 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-06-19 10:54:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ARJUN\\Desktop\\ArcWithKatalonStudio-master\\ArcWithKatalonStudio-master\\ScreenShot\\screenshot_20180619105403.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-19 10:53:24 - [TEST_CASE][FAILED] - Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest: Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest FAILED because (of) Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest" classname="Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest" status="ERROR">
+         <error type="ERROR" message="Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram() is applicable for argument types: (null, null) values: [null, null]
+Possible solutions: searchProgram(java.lang.String, int)"/>
+         <system-out><![CDATA[2018-06-19 10:54:04 - [TEST_CASE][ERROR] - Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram() is applicable for argument types: (null, null) values: [null, null]
+Possible solutions: searchProgram(java.lang.String, int)
+
+2018-06-19 10:54:04 - [TEST_STEP][ERROR] - Start listener action : beforeTestListener: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad() is applicable for argument types: (null) values: [null]
+Possible solutions: waitForPageLoad(int), waitForPageLoad(int, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-19 10:54:04 - [TEST_STEP][ERROR] - com.arc.ReusableMethods.ReusableMethodsLogin.loginIntoArcWithGlobalVariable: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad() is applicable for argument types: (null) values: [null]
+Possible solutions: waitForPageLoad(int), waitForPageLoad(int, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-19 10:54:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-19 10:54:07 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-06-19 10:54:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-19 10:54:08 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad() is applicable for argument types: (null) values: [null]
+Possible solutions: waitForPageLoad(int), waitForPageLoad(int, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-19 10:54:08 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad() is applicable for argument types: (null) values: [null]
+Possible solutions: waitForPageLoad(int), waitForPageLoad(int, com.kms.katalon.core.model.FailureHandling)
+
+2018-06-19 10:54:08 - [TEST_STEP][ERROR] - Statement - Try: No signature of method: com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram() is applicable for argument types: (null, null) values: [null, null]
+Possible solutions: searchProgram(java.lang.String, int)
+
+2018-06-19 10:54:08 - [TEST_STEP][ERROR] - com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram: No signature of method: com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram() is applicable for argument types: (null, null) values: [null, null]
+Possible solutions: searchProgram(java.lang.String, int)
+
+2018-06-19 10:54:08 - [MESSAGE][ERROR] - No signature of method: com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram() is applicable for argument types: (null, null) values: [null, null]
+Possible solutions: searchProgram(java.lang.String, int)
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Statement - Catch (Throwable t): null
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Statement - out.println(t.getLocalizedMessage()): null
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Statement - e1 = new java.lang.Error(t.getMessage()): null
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Statement - e1.setStackTrace(t.getStackTrace()): null
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Statement - e1.printStackTrace(): null
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Name : " + testCase.getTestCaseId()): Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest
+
+2018-06-19 10:54:08 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markWarning("Test Case Status : " + testCase.getTestCaseStatus()): Test Case Status : ERROR
+
+2018-06-19 10:54:08 - [MESSAGE][WARNING] - Test Case Status : ERROR
+
+2018-06-19 10:54:08 - [TEST_STEP][PASSED] - Statement - If ("FAILED".equalsIgnoreCase(testCase.getTestCaseStatus())): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'MasterTestListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-06-19 10:54:04 - [TEST_CASE][ERROR] - Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest: Test Cases/Buildings/MyBuildings/BuildingNone/PaymentByCreditCardTest FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram() is applicable for argument types: (null, null) values: [null, null]
+Possible solutions: searchProgram(java.lang.String, int)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-19 10:53:22 - [TEST_SUITE][FAILED] - BuildingNone TestSuite: Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest FAILED because (of) Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-19 10:53:22 - [TEST_SUITE][FAILED] - BuildingNone TestSuite: Test Cases/Buildings/MyBuildings/BuildingNone/AddNewProjectTest FAILED because (of) Unable to click on object 'Object Repository/Page_Arc dashboard/a_ Buildings' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Arc dashboard/a_ Buildings' located by 'By.xpath: //a[(text() = '   Buildings   ' or . = '   Buildings   ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
