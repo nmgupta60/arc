@@ -22,4 +22,4 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram'(GlobalVariable.BuildingSheet, GlobalVariable.rowNumSeven)
 WebUI.delay(3)
 
-CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsManage.verifyScoreVersion'()
+CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsManage.verifyCertifications'()

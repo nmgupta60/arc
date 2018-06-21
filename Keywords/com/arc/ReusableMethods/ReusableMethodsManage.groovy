@@ -67,6 +67,7 @@ public class ReusableMethodsManage extends BaseClass {
 		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
 
 		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Project/a_ Project'), 10)
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Project/a_ Project'), 3)
 
 		WebUI.click(findTestObject('Object Repository/Manage/Project/a_ Project'))
 
@@ -104,7 +105,7 @@ public class ReusableMethodsManage extends BaseClass {
 		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
 
 		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Project/a_ Project'), 10)
-
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Project/a_ Project'), 3)
 		WebUI.click(findTestObject('Object Repository/Manage/Project/a_ Project'))
 
 		WebUI.setText(findTestObject('Object Repository/Manage/Project/input_operatingHours'),'100')
@@ -130,6 +131,7 @@ public class ReusableMethodsManage extends BaseClass {
 		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
 		//WebUI.waitForElementNotVisible(findTestObject('Object Repository/Manage/Team/a_ Team'), 10)
 		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Team/a_ Team'), 20)
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Team/a_ Team'), 2)
 		WebUI.click(findTestObject('Object Repository/Manage/Team/a_ Team'))
 		WebUI.delay(3)
 		WebUI.setText(findTestObject('Object Repository/Manage/Team/input_input'), email)
@@ -147,7 +149,7 @@ public class ReusableMethodsManage extends BaseClass {
 		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
 
 		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Score Version/a_ Score Version'),20)
-
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Score Version/a_ Score Version'), 2)
 		WebUI.click(findTestObject('Object Repository/Manage/Score Version/a_ Score Version'))
 
 		WebUI.delay(3)
@@ -156,4 +158,53 @@ public class ReusableMethodsManage extends BaseClass {
 
 		WebUI.verifyMatch(scoreVersion,'Arc score v2.0',true)
 	}
+
+	@Keyword
+	public void verifyCertifications(){
+
+		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
+		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Certification/a_ Certifications'), 10)
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Certification/a_ Certifications'), 2)
+		WebUI.click(findTestObject('Object Repository/Manage/Certification/a_ Certifications'))
+		String certificationType = WebUI.getText(findTestObject('Object Repository/Manage/Certification/td_none'))
+		WebUI.verifyMatch(certificationType, 'None', true)
+		String level = WebUI.getText(findTestObject('Object Repository/Manage/Certification/Level'))
+		WebUI.verifyMatch(level, 'Pending', true)
+		String certificationDate = WebUI.getText(findTestObject('Object Repository/Manage/Certification/CertificationDate'))
+		WebUI.verifyMatch(certificationDate, 'Pending', true)
+	}
+	@Keyword
+	public void verifyBilling(){
+
+		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
+		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Billing/a_ Billing'), 10)
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Billing/a_ Billing'),2)
+		WebUI.click(findTestObject('Object Repository/Manage/Billing/a_ Billing'))
+		String date = WebUI.getText(findTestObject('Object Repository/Manage/Billing/Date'))
+		WebUI.verifyMatch(date, 'Jun 19, 2018', true)
+		String orderID = WebUI.getText(findTestObject('Object Repository/Manage/Billing/orderID'))
+		WebUI.verifyMatch(orderID, '0011014125',true)
+		String orderType = WebUI.getText(findTestObject('Object Repository/Manage/Billing/OrderType'))
+		WebUI.verifyMatch(orderType,'REGISTRATION',true)
+		String total = WebUI.getText(findTestObject('Object Repository/Manage/Billing/total'))
+		//WebUI.verifyMatch(total,'$ 1500.00', true)
+		String status = WebUI.getText(findTestObject('Object Repository/Manage/Billing/Status'))
+		WebUI.verifyMatch(status, 'Completed', true)
+		WebUI.click(findTestObject('Object Repository/Manage/Billing/button_Download'))
+	}
+	
+	@Keyword
+	public void verifyAgreement(){
+		
+		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
+		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Agreements/a_ Agreements'), 10)
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Agreements/a_ Agreements'), 2)
+		WebUI.click(findTestObject('Object Repository/Manage/Agreements/a_ Agreements'))
+		String date = WebUI.getText(findTestObject('Object Repository/Manage/Agreements/span_Jun 19 2018'))
+		WebUI.verifyMatch(date, 'Jun 19, 2018', true)
+		String agreementType = WebUI.getText(findTestObject('Object Repository/Manage/Agreements/span_Registration'))
+		WebUI.verifyMatch(agreementType, 'Registration', true)
+		WebUI.click(findTestObject('Object Repository/Manage/Agreements/button_Download'))
+	}
+	
 }

@@ -4,10 +4,20 @@
    <name>button_Download</name>
    <tag></tag>
    <elementGuidId>3b5f1ad0-4efd-4292-a095-ed0e9df6d2aa</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @class = 'btn btn-default ng-scope']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@class='table table-striped']/tbody/tr[1]/td[6]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,7 +31,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -42,7 +52,7 @@
       <value>payments.OrderStatus != 'Payment Cancelled' &amp;&amp; payments.OrderStatus != 'Auto Cancelled'</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
