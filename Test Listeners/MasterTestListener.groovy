@@ -2,6 +2,11 @@ import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.ResultSet
 import java.text.SimpleDateFormat
+
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import org.openqa.selenium.remote.server.DefaultDriverFactory
 import org.testng.annotations.BeforeMethod
 
 import com.arc.BaseClass.BaseClass
@@ -13,9 +18,11 @@ import com.kms.katalon.core.annotation.SetUp
 import com.kms.katalon.core.annotation.TearDown
 import com.kms.katalon.core.annotation.TearDownIfError
 import com.kms.katalon.core.annotation.TearDownIfPassed
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 public class MasterTestListener extends BaseClass {
@@ -30,7 +37,7 @@ public class MasterTestListener extends BaseClass {
 	@BeforeTestCase
 	public void beforeTestListener(TestSuiteContext testSuite)
 	{
-		
+				
 	/***********Login by Remote MySQL Database environment stg , qas , dev ***********************************************/
      //    CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsLogin.LoginToArcWithRemoteDBMySQL'()
 		

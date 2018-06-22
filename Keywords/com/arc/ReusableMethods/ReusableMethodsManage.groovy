@@ -192,10 +192,10 @@ public class ReusableMethodsManage extends BaseClass {
 		WebUI.verifyMatch(status, 'Completed', true)
 		WebUI.click(findTestObject('Object Repository/Manage/Billing/button_Download'))
 	}
-	
+
 	@Keyword
 	public void verifyAgreement(){
-		
+
 		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
 		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Agreements/a_ Agreements'), 10)
 		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Agreements/a_ Agreements'), 2)
@@ -206,5 +206,54 @@ public class ReusableMethodsManage extends BaseClass {
 		WebUI.verifyMatch(agreementType, 'Registration', true)
 		WebUI.click(findTestObject('Object Repository/Manage/Agreements/button_Download'))
 	}
-	
+
+	@Keyword
+	public void isFileDownloaded(String filename){
+		File dir = new File(downloadPath)
+		File[] dir_contents = dir.listFiles()
+		println dir_contents.length
+		for(int i=0;i<dir_contents.length;i++){
+			println 'File Name at'+[i]+ 'is : '+dir_contents[i].getName()
+			if(dir_contents[i].getName().equals(filename)){
+				println true
+			}
+		}
+	}
+
+	@Keyword
+	public void appsCheck(){
+
+		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
+		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Apps/a_ Apps'), 10)
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Apps/a_ Apps'), 2)
+		WebUI.click(findTestObject('Object Repository/Manage/Apps/a_ Apps'))
+		WebUI.delay(3)
+		String portfolioStart = WebUI.getText(findTestObject('Object Repository/Manage/Apps/PortfolioManager'))
+		println portfolioStart
+		WebUI.click(findTestObject('Object Repository/Manage/Apps/PortfolioManager'))
+		WebUI.delay(3)
+		String portfolioEnd = WebUI.getText(findTestObject('Object Repository/Manage/Apps/PortfolioManager'))
+		println portfolioEnd
+
+		String dropboxStart = WebUI.getText(findTestObject('Object Repository/Manage/Apps/DropBox'))
+		println dropboxStart
+		WebUI.click(findTestObject('Object Repository/Manage/Apps/DropBox'))
+		WebUI.delay(2)
+		String dropboxEnd = WebUI.getText(findTestObject('Object Repository/Manage/Apps/DropBox'))
+		println dropboxEnd
+
+		String onedriveStart = WebUI.getText(findTestObject('Object Repository/Manage/Apps/OneDrive'))
+		println onedriveStart
+		WebUI.click(findTestObject('Object Repository/Manage/Apps/OneDrive'))
+		WebUI.delay(2)
+		String onedriveEnd = WebUI.getText(findTestObject('Object Repository/Manage/Apps/OneDrive'))
+		println onedriveEnd
+
+		String googledriveStart = WebUI.getText(findTestObject('Object Repository/Manage/Apps/GoogleDrive'))
+		println googledriveStart
+		WebUI.click(findTestObject('Object Repository/Manage/Apps/GoogleDrive'))
+		WebUI.delay(2)
+		String googledriveEnd = WebUI.getText(findTestObject('Object Repository/Manage/Apps/GoogleDrive'))
+		println googledriveEnd
+	}
 }

@@ -19,9 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram'(GlobalVariable.BuildingSheet, GlobalVariable.rowNumSeven)
-WebUI.delay(3)
-
-
-
-CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsManage.verifyBilling'()
+try{
+	CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram'(GlobalVariable.BuildingSheet, GlobalVariable.rowNumSeven)
+	WebUI.delay(3)
+	
+	CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsManage.verifyBilling'()
+	
+	String filename ='0011014125.pdf'
+	CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsManage.isFileDownloaded'(filename)
+} catch(Throwable t){
+	System.out.println(t.getLocalizedMessage())
+	Error e1 = new Error(t.getMessage())
+	e1.setStackTrace(t.getStackTrace())
+	e1.printStackTrace()
+}

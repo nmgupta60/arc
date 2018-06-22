@@ -19,11 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 try{
 	CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsSearch.searchProgram'(GlobalVariable.BuildingSheet, GlobalVariable.rowNumSeven)
 	WebUI.delay(3)
 	
-	CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsManage.verifyCertifications'()
+	CustomKeywords.'com.arc.ReusableMethods.ReusableMethodsManage.appsCheck'()
 } catch(Throwable t){
 	System.out.println(t.getLocalizedMessage())
 	Error e1 = new Error(t.getMessage())
