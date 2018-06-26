@@ -66,33 +66,53 @@ public class ReusableMethodsManage extends BaseClass {
 
 		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
 
-		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Project/a_ Project'), 10)
+		//WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Project/a_ Project'), 10)
 		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Project/a_ Project'), 3)
 
 		WebUI.click(findTestObject('Object Repository/Manage/Project/a_ Project'))
-
+		WebUI.delay(3)
 		//String Name = WebUI.getText(findTestObject('Manage/Project/input_Address'))
 		//println Name
-		String name = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_name'),'value' )
+		String name = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_name'),'value')
 		println name
-		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/Page_Arc dashboard (1)/input_name'), prjName)
-		WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_name'), prjName, FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.verifyMatch(name, prjName,true)
 
-		WebUI.verifyElementText(findTestObject('Manage/Project/input_Address'), prjAddress, FailureHandling.CONTINUE_ON_FAILURE)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_name'), prjName, FailureHandling.CONTINUE_ON_FAILURE)
+		String space = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/select_Airport Control TowerAi'),'value')
+		WebUI.verifyMatch(space, 'string:'+spaceType, true)
 
-		WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_City'), prjCity, FailureHandling.CONTINUE_ON_FAILURE)
+		String address = WebUI.getAttribute(findTestObject('Manage/Project/input_Address'), 'value')
+		WebUI.verifyMatch(address, prjAddress,true)
+		//WebUI.verifyElementText(findTestObject('Manage/Project/input_Address'), prjAddress, FailureHandling.CONTINUE_ON_FAILURE)
 
-		WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_State'), prjState, FailureHandling.CONTINUE_ON_FAILURE)
+		String city = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_City'), 'value')
+		WebUI.verifyMatch(city, prjCity,true)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_City'), prjCity, FailureHandling.CONTINUE_ON_FAILURE)
 
-		WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_Country'), prjCountry, FailureHandling.CONTINUE_ON_FAILURE)
+		String state = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_State'), 'value')
+		WebUI.verifyMatch(state,prjState, true)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_State'), prjState, FailureHandling.CONTINUE_ON_FAILURE)
 
-		WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_ownerType'), ownerType, FailureHandling.CONTINUE_ON_FAILURE)
+		String country = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_Country'), 'value')
+		WebUI.verifyMatch(country, prjCountry,true)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_Country'), prjCountry, FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Project/input_ownerType'), 3)
+		String type = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/select_Business Improvement Di'), 'value')
+		println type
+		WebUI.verifyMatch(type,'string:'+ ownerType, true)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_ownerType'), ownerType, FailureHandling.CONTINUE_ON_FAILURE)
 
-		WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_organization'), ownerOrg, FailureHandling.CONTINUE_ON_FAILURE)
+		String org = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_organization'),'value')
+		WebUI.verifyMatch(org, ownerOrg, true)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_organization'), ownerOrg, FailureHandling.CONTINUE_ON_FAILURE)
 
-		WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_OwnerCountry'), ownerCountry, FailureHandling.CONTINUE_ON_FAILURE)
+		String ocountry = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_OwnerCountry'), 'value')
+		WebUI.verifyMatch(ocountry, ownerCountry, true)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_OwnerCountry'), ownerCountry, FailureHandling.CONTINUE_ON_FAILURE)
 
-		WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_grossArea'), prjArea, FailureHandling.CONTINUE_ON_FAILURE)
+		String area = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_grossArea'), 'value')
+		WebUI.verifyMatch(area, prjArea, true)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Manage/Project/input_grossArea'), prjArea, FailureHandling.CONTINUE_ON_FAILURE)
 
 	}
 
@@ -104,21 +124,21 @@ public class ReusableMethodsManage extends BaseClass {
 
 		WebUI.click(findTestObject('Object Repository/Manage/a_ Manage'))
 
-		WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Project/a_ Project'), 10)
+		//WebUI.waitForElementNotPresent(findTestObject('Object Repository/Manage/Project/a_ Project'), 10)
 		WebUI.scrollToElement(findTestObject('Object Repository/Manage/Project/a_ Project'), 3)
 		WebUI.click(findTestObject('Object Repository/Manage/Project/a_ Project'))
-
+		WebUI.clearText(findTestObject('Object Repository/Manage/Project/input_operatingHours'))
 		WebUI.setText(findTestObject('Object Repository/Manage/Project/input_operatingHours'),'100')
-
+		WebUI.clearText(findTestObject('Object Repository/Manage/Project/input_Occupancy'))
 		WebUI.setText(findTestObject('Object Repository/Manage/Project/input_Occupancy'), '100')
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/Manage/Project/input_grossArea'))
 		WebUI.delay(3)
-		String opHrs = WebUI.getText(findTestObject('Object Repository/Manage/Project/input_operatingHours'))
+		String opHrs = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_operatingHours'),'value')
 		println opHrs
 		WebUI.verifyMatch(opHrs, '100',true, FailureHandling.CONTINUE_ON_FAILURE)
 
-		String ocpncy = WebUI.getText(findTestObject('Object Repository/Manage/Project/input_Occupancy'))
+		String ocpncy = WebUI.getAttribute(findTestObject('Object Repository/Manage/Project/input_Occupancy'),'value')
 		println ocpncy
 		WebUI.verifyMatch(ocpncy, '100', true, FailureHandling.CONTINUE_ON_FAILURE)
 	}
